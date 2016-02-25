@@ -7,4 +7,4 @@ RUN mkdir /files
 WORKDIR /files
 
 COPY ./runit.sh /files
-CMD runit.sh
+CMD /bin/bash /files/runit.sh
